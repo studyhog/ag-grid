@@ -2,7 +2,7 @@
 
 const  ModuleRegistry = require("../../../../../community-modules/core/src/ts/main").ModuleRegistry;
 export * from "../../../../../community-modules/core/src/ts/main";
-export * from "../../../../../charts-packages/ag-charts-community/src/main";
+export * from "../../../../../charts-packages/ag-charts-community/dist/cjs/es5/main";
 
 /* MODULES - Don't delete this line */
 const ClientSideRowModelModule = require("../../../../../community-modules/client-side-row-model/dist/cjs/es5/clientSideRowModelModule").ClientSideRowModelModule;

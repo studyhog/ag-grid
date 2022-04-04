@@ -1,9 +1,9 @@
 // for js examples that just require enterprise functionality (landing pages, vanilla community examples etc)
 
-const  ModuleRegistry = require("../../../../../community-modules/core/src/ts/main").ModuleRegistry;
-export * from "../../../../../community-modules/core/src/ts/main";
-export * from "../../../../../enterprise-modules/core/src/main";
-export * from "../../../../../charts-packages/ag-charts-community/src/main";
+const  ModuleRegistry = require("../../../../../community-modules/core/dist/cjs/es5/main").ModuleRegistry;
+export * from "../../../../../community-modules/core/dist/cjs/es5/main";
+export * from "../../../../../enterprise-modules/core/dist/cjs/es5/main";
+export * from "../../../../../charts-packages/ag-charts-community/dist/cjs/es5/main";
 
 /* MODULES - Don't delete this line */
 const GridChartsModule = require("../../../../../enterprise-modules/charts/dist/cjs/es5/gridChartsModule").GridChartsModule;
